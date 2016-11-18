@@ -1,1 +1,34 @@
-/* This file is for your main application css. */
+#board ul {
+  list-style-type: none;
+  background-color: black;
+  padding: 0;
+  width: 608px;
+  height: 608px;
+  margin: 0 auto
+}
+
+#board ul li {
+  display: block;
+  float: left;
+  background-color: #FFF;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+
+#board ul li:nth-child(2), #board ul li:nth-child(5), #board ul li:nth-child(8) {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+#board ul li:nth-child(4), #board ul li:nth-child(5), #board ul li:nth-child(6) {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#board ul li span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 140px;
+}
